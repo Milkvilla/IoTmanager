@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/card_root"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginStart="8dp"
+	android:layout_marginTop="8dp"
+	android:layout_marginEnd="8dp"
+	android:layout_marginBottom="4dp"
+	app:cardBackgroundColor="@android:color/white"
+	app:cardCornerRadius="8dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="8dp">
+
+		<TextView
+			android:id="@+id/ip"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/useColor"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			tools:text="30 Jan, 10:11:15 AM" />
+
+		<TextView
+			android:id="@+id/host_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:layout_marginTop="4dp"
+			android:textStyle="bold"
+			tools:text="Host name" />
+
+		<TextView
+			android:id="@+id/ports"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:layout_marginTop="4dp"
+			android:textStyle="bold"
+			tools:text="Ports" />
+
+	</LinearLayout>
+
+</androidx.cardview.widget.CardView>
